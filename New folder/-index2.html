@@ -1,0 +1,60 @@
+<html>	
+<head>
+<script>
+<--
+const QUOTEBANK = [
+{
+quote: "al-Khwārizmī,formerly Latinized as Algorithmi,  influential works in mathematics, astronomy, and geography."
+author: "Khwārizmī"
+},{
+quote: "Avicenna(ibni sina), was a Persian polymath who is regarded as "
+author: ""Avicenna"
+},{
+quote: "Popularly known as the father of chemistry,"
+author: "Jabir ibn Hayyan"
+}
+];-->
+
+window.onload = init;
+function init(){
+
+document.getElementById("text").innerText = "Full Stack Developer;
+document.getElementById("author").innerText = "The Author";
+
+function generateQuote(){
+console.log("Generate Quote"};
+}
+
+
+
+<--
+generateQuote()
+}
+ {
+let quoteSize = QUOTEBANK.length;
+let randomIndex = Math.floor(Math.random() * quoteSize);
+let randomQuoteData = QUOTEBANK[randomIndex];
+}-->
+
+</script>
+
+<style>
+* {
+font-size: 2rem;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<wrapper id="quote-box">
+<div id="text"></div>
+<div id="author"></div>
+<button id="new-quote" onClick='generateQuote();" >New Quote></button>
+<a src="#" id="tweet-quote">Tweet Quote</a>
+</wrapper>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
