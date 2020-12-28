@@ -1,0 +1,1 @@
+## [A Random Quote Generator] (https://hasankaca.github.io/freecodecamp_Random_Quote_Machine/)
